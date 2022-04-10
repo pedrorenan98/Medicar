@@ -126,4 +126,4 @@ api/scheduleMedic
 	</code>
 </pre>
 
-PS: Antes de executar a API alterar credenciais do banco e rodar o comando no terminal do VS : python manage.py migrate MedicarApp
+PS: Antes de executar a API alterar credenciais do banco e no terminal do VS Code : python manage.py migrate MedicarApp
