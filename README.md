@@ -21,44 +21,44 @@ Deve ser possível criar uma agenda para o médico em um dia específico fornece
 
 ### Listar Agendas dos Medicos - GET
 <pre>
-<code>
-api/scheduleMedic
- </code>
+	<code>
+		api/scheduleMedic
+	</code>
 </pre>
 - Retorno:
 <pre>
-<code>
+	<code>
 	{
 		"ScheduleId": 1,
 		"MedicId": 1,
 		"Day": "2022-04-24",
 		"Hours": "16:36"
 	}
-  </code>
+	</code>
 </pre>
 
 ### Criar Agenda dos Medicos - POST
 
 <pre>
-<code>
-  api/scheduleMedic
- </code>
+	<code>
+		api/scheduleMedic
+	</code>
 </pre>
 <pre>
-<code>
-{
-	"MedicId":"1",
-  "Day": "2022-04-27",
-	"Hours": "9:00;10:00;11:00"
-}
- </code>
+	<code>
+	{
+		"MedicId":"1",
+		"Day": "2022-04-27",
+		"Hours": "9:00;10:00;11:00"
+	}
+	</code>
 </pre>
 
 ### Listar as consultas - GET
 
 <pre>
 	<code>
-    /api/consult
+		/api/consult
 	</code>
 </pre>
 
@@ -66,7 +66,7 @@ api/scheduleMedic
 
 <pre>
 	<code>
-    {
+	{
 		"ConsultId": 3,
 		"DayConsult": "2022-04-09",
 		"Hour": "10:00",
@@ -87,16 +87,16 @@ api/scheduleMedic
 
 <pre>
 	<code>
-    /api/consult
+		/api/consult
 	</code>
 </pre>
 
 <pre>
 	<code>
-    {
-      "ScheduleId": 1,
-      "Hour": "16:36"
-    }
+	{
+		"ScheduleId": 1,
+		"Hour": "16:36"
+	}
 	</code>
 </pre>
 
@@ -104,7 +104,7 @@ api/scheduleMedic
 
 <pre>
 	<code>
-    /api/consult/id
+		/api/consult/id
 	</code>
 </pre>
 
@@ -112,17 +112,17 @@ api/scheduleMedic
 
 <pre>
 	<code>
-    /api/medic
+		/api/medic
 	</code>
 </pre>
 
 <pre>
 	<code>
-    {
-      "MedicName":"Teste",
-      "Crm": "7412",
-      "Email": "teste@gmail.com"
-    }
+	{
+		"MedicName":"Teste",
+		"Crm": "7412",
+		"Email": "teste@gmail.com"
+	}
 	</code>
 </pre>
 
